@@ -2,18 +2,19 @@ body {
     background-image: url(../img/escalator.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
+    height: 100vh;
 }
 #groupname {
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     font-family: 'Faster One', 'cursive';
-    margin-left: 23%;
-    margin-top: 20%;
+    margin-top: 70%;
+    text-align: center;
 }
 .buttonaccess {
     background-color: blueviolet;
-    margin-left: 43%;
-    margin-top: 1px;
+    margin-top: 20%;
     padding: 10px;
 }
 .textbutton {
