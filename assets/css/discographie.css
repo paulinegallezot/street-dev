@@ -2,25 +2,9 @@
     height: 250px;
     width: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .foot{
     background-color: black;
 }
-
-
-
-
 body {
     background-color: whitesmoke;
     margin: 0;
@@ -116,6 +100,7 @@ ul li:hover .albumlist{
 .album .pocketlayout {
     display: inline-block;
     list-style-type: none;
+    padding-left: 0;
 }
 #vinyl {
     width: 100%;
