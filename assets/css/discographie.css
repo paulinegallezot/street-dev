@@ -1,4 +1,23 @@
-body {
+.imgAlbum{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    background-color: black;
+}
+
+/* body {
     background-color: whitesmoke;
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -122,4 +141,4 @@ ul li:hover .albumlist{
 .titlepage {
     margin-top: 100px;
     text-align: center;
-}
+} */

@@ -1,0 +1,23 @@
+body {
+    background-image: url(../img/escalator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;
+
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Faster One', 'cursive';
+}
+.buttonaccess {
+    background-color: blueviolet;
+    margin-top: 1px;
+}
+.textbutton {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 15px;
+}
