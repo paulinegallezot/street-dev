@@ -1,6 +1,16 @@
 body{
   background-color: black;
+
 }
+
 .col{
   color: white;
+}
+.marge{
+  width: 80%;
+}
+@media (min-width: 1200px) {
+  .marge{
+    width: 50%;
+  }
 }
