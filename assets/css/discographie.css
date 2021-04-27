@@ -1,4 +1,29 @@
 
+.navbar {
+  background-color: black!important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0em;
+  background-color: #959299;
+}
+
+.namesite {
+  font-size: 1.8rem;
+  font-family: 'Faster One', cursive;
+  color: white;
+}
+
+.fas {
+  font-size: 1.5rem;
+}
+
+
 .foot{
     background-color: black;
 }
@@ -116,3 +141,36 @@ ul li:hover .albumlist{
     width: 100%; 
     position:absolute;
 }
+:root {
+    font-size: 11px;
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 21px;
+    }
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    font-size: 0%;
+  }

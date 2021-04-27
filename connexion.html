@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/connexion.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E" />
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/840511e87a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/connexion.css">
+    <title>STREET RAIL ROAD</title>
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="row connexion my-3">
+            <div class="col"><h2>CONNEXION</h2></div>
+        </div>
+
+        <form action="post" class="border pb-2"> 
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Nom d'Utilisateur</label><br>
+                    <input type="text" placeholder="Jean-Pierre de taille" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="mdp">Mot de passe</label><br>
+                    <input type="password" name="mdp" id="mdp" placeholder="******" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">Connexion</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        
+
+        <div class="row connexion my-3">
+            <div class="col"><h2>INSCRIPTION</h2></div>
+        </div>
+
+        <form action="post" class="border pb-2 mb-4 container-fluid"> 
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Nom</label><br>
+                    <input type="text" placeholder="Michel" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Prénom</label><br>
+                    <input type="text" placeholder="Jean-Pierre" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Nom d'Utilisateur</label><br>
+                    <input type="text" placeholder="Jean-Pierre de tille" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Mail</label><br>
+                    <input type="mail" placeholder="Mail@connexion.com" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="mdp">Mot de passe</label><br><input type="password" name="mdp" id="mdp" placeholder="******" size="20" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="name">Adresse</label><br>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" col="4" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="row text-center my-3">
+                <div class="col"><h2>Système de Paiement</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col"><p>Type de Carte</p></div>
+                       
+                <div class="col">
+                            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" />
+                            <i class="fab fa-cc-mastercard"></i>
+                            <label for="Mastercard">Mastercard</label>
+
+                            <input type="radio" name="Cardtype" value="Visa" id="Visa" />
+                            <i class="fab fa-cc-visa"></i><label for="Visa">Visa</label>
+                </div>
+
+                        <div>
+                            <label for="Cardnumber">Numero de carte</label><br>
+                            <input type="text" name="Cardnumber" placeholder="Numero de carte" required />
+                        </div>
+
+                        <div>
+                            <label for="Expirydate">Date d'expiration</label><br>
+                            <input type="Datetime" name="Expirydate" placeholder="01/21" required />
+                        </div>
+
+                        <div>
+                            <label for="Securitycode">Cryptograme</label><br>
+                        
+                            <input type="text" name="Securitycode" placeholder="***" required />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col text-center mt-4">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-secondary">Inscription</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
