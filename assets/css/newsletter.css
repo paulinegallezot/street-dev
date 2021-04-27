@@ -5,10 +5,13 @@ body {
   color: white;
 
 }
-h1 {
-  
+.table{
+  color: white;
 }
 
+h6 {
+  padding-top: 10px;
+}
 .under {
   display: none;
   position: absolute;
@@ -70,7 +73,10 @@ header div #connection {
   bottom: 0;
   z-index: 100;
 }
-
+.fab {
+  color: white;
+  font-size: 25px;
+}
 footer p {
   text-align: center;
   font-size: 18px;
@@ -79,41 +85,24 @@ footer p {
   color: white;
 }
 
-footer p a {
+footer a {
   color: white;
-  margin-left: 50px;
+  font-size: 0%;
 }
 
 th {
   font-weight: bold;
-  padding: 25px;
-}
-
-td {
-  padding: 25px;
-}
-
-@media (min-width: 576px) {
-
-}
-table {
-  margin-left: 20%;
-  margin-top: 10px;
-  margin-bottom: 50px;
 }
 
 #news {
+  text-align: center;
   width: 50%;
   margin-left: 25%;
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-#guardrailleft {
-  
-  
-  
-}
+
 
 #guardrailright {
   

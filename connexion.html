@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/connexion.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E" />
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/840511e87a.js" crossorigin="anonymous"></script>
+    <title>STREET RAIL ROAD</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div>
+            <nav>
+                <ul>
+                    <li><i class="fas fa-bars"></i> <a>Menu</a>
+                        <ul class="under">
+                            <li><a href="apropos.html">A propos</a></li>
+                            <li><a href="newsletter.html">Newletters</a></li>
+                            <li><a href="discographie.html">Discographie</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <p id="namegroup">Street Rail Road</p>
+        </div>
+    </header>
+    <div id="form">
+        <h2>CONNEXION</h2>
+        <div class="inside">
+            <fieldset id="username">
+                <form method="post" action="traitement.php">
+                    <div>
+                        <label for="Username">Nom d'Utilisateur</label>
+                        <input type="text" name="Username" placeholder="Jean-pierre de taille" required />
+                    </div>
+
+                    <div>
+                        <label for="Password">Mot de passe</label>
+                        <input type="password" name="Password" placeholder="********" required />
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Connexion" />
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        <h2>INSCRIPTION</h2>
+        <div class="inside">
+            <fieldset id="signin">
+                <form method="POST" action="traitement.php">
+                    <h2>Formulaire d'inscription</h2>
+                    <div>
+                        <label for="Lastname">Nom</label>
+                        <input type="text" name="Lastname" placeholder="Michel" required />
+                    </div>
+
+                    <div>
+                        <label for="Firstname">Prénom</label>
+                        <input type="text" name="Firstname" placeholder="Jean-pierre" required />
+                    </div>
+
+                    <div>
+                        <label for="Username">Nom d'Utilisateur</label>
+                        <input type="text" name="Username" placeholder="Jean-pierre de taille" required />
+                    </div>
+
+                    <div>
+                        <label for="Mail">Mail</label>
+                        <input type="email" name="Mail" placeholder="Mail@connexion.com" required />
+                    </div>
+
+                    <div>
+                        <label for="Password">Mot de passe</label>
+                        <input type="password" name="Password" placeholder="*******" required />
+                    </div>
+
+                    <div>
+                        <label for="Adress">Adresse</label><br />
+                        <textarea name="Adress" id="Adress" placeholder="1345 Chemin musicaux 56789 Airplanes"
+                            required></textarea>
+                    </div>
+
+                    <fieldset>
+                        <h2>Système de Paiement</h2>
+                        <div>
+                            <p>Type de Carte</p>
+                            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" />
+                            <i class="fab fa-cc-mastercard"></i>
+
+                            <label for="Mastercard">Mastercard</label>
+                            <input type="radio" name="Cardtype" value="Visa" id="Visa" />
+                            <i class="fab fa-cc-visa"></i><label for="Visa">Visa</label>
+                        </div>
+
+                        <div>
+                            <label for="Cardnumber">Numero de carte</label>
+                            <input type="text" name="Cardnumber" placeholder="Numero de carte" required />
+                        </div>
+
+                        <div>
+                            <label for="Expirydate">Date d'expiration</label>
+                            <input type="Datetime" name="Expirydate" placeholder="01/21" required />
+                        </div>
+
+                        <div>
+                            <label for="Securitycode">Cryptograme</label>
+                        </div>
+                        <div>
+                            <input type="text" name="Securitycode" placeholder="***" required />
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="Inscription" required />
+                        </div>
+                    </fieldset>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+
+    <footer class="foot">
+        <p> <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"><i class="fab fa-snapchat-square"></i></a>
+            <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://music.apple.com/us/browse" target="_blank"><i class="fab fa-apple"></i></a>
+            <a href="https://www.spotify.com/fr/" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.deezer.com/fr/" target="_blank"><i class="fab fa-deezer"></i></a>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
