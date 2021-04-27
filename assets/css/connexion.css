@@ -77,20 +77,26 @@ footer p a {
 h2 {
     text-align: center;
     color: whitesmoke;
+    font-size: 60px;
 }
 #signin {
     background-color: transparent;
     width: 50%;
     margin: 0 auto;
     color: white;
+    font-size: 30px;
 }
 #form {
   margin-bottom: 100px;
 }
 .inside {
   margin: 0 auto;
-  width: 30%;
+  font-size: 30px;
+  
 }
 .button {
  margin-left: 35%;
+}
+.form {
+  height: auto;
 }
