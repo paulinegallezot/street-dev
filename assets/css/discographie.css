@@ -1,11 +1,5 @@
 
-.navbar {
-  background-color: black!important;
-}
 
-.navbar-brand {
-  color: white;
-}
 
 .dropdown-menu {
   border: none;
@@ -28,7 +22,7 @@
     background-color: black;
 }
 body {
-    background-color: whitesmoke;
+    background-color: white!important;
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
@@ -37,45 +31,9 @@ body {
     position: absolute;
     width: auto;
 }
-  nav > ul li:hover .under{
-    display: block;
-    background-color: black;
-    width: 23%;
-}
-.navbar {
-    position: fixed;
-    font-size: 25px;
-    width: 100%;
-    height: 35px;
-    background-color: black;
-    color: azure;
-    z-index: 100;
-    top: 0%;
-}
-header nav li {
-    list-style-type: none;
-}
+  
 
-header div {
-    display: flex;
-}
-header div #namegroup {
-    margin-top: 0%;
-    
-    font-size: 30px;
-    font-family: 'Faster One', 'cursive';
-}
-header a {
-    text-decoration: none;
-    color: white;
-}
-header {
-      margin: 0%;
-}
-header div #connection {
-    margin-top: 0%;
-   
-}
+
 .foot {
     background-color:black;
     width: 100%;
@@ -174,3 +132,8 @@ footer p {
     color: white;
     font-size: 0%;
   }
+  body {
+    background-color: white!important;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
