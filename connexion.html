@@ -16,10 +16,12 @@
 <body>
     <div class="container-fluid text-center">
         <div class="row connexion my-3">
-            <div class="col"><h2>CONNEXION</h2></div>
+            <div class="col">
+                <h2>CONNEXION</h2>
+            </div>
         </div>
 
-        <form action="post" class="border pb-2"> 
+        <form action="post" class="border pb-2">
 
             <div class="row">
                 <div class="col">
@@ -44,13 +46,15 @@
             </div>
 
         </form>
-        
+
 
         <div class="row connexion my-3">
-            <div class="col"><h2>INSCRIPTION</h2></div>
+            <div class="col">
+                <h2>INSCRIPTION</h2>
+            </div>
         </div>
 
-        <form action="post" class="border pb-2 mb-4 container-fluid"> 
+        <form action="post" class="border pb-2 mb-4 container-fluid">
 
             <div class="row">
                 <div class="col">
@@ -82,7 +86,8 @@
 
             <div class="row">
                 <div class="col">
-                    <label for="mdp">Mot de passe</label><br><input type="password" name="mdp" id="mdp" placeholder="******" size="20" required>
+                    <label for="mdp">Mot de passe</label><br><input type="password" name="mdp" id="mdp"
+                        placeholder="******" size="20" required>
                 </div>
             </div>
 
@@ -94,50 +99,55 @@
             </div>
 
             <div class="row text-center my-3">
-                <div class="col"><h2>Système de Paiement</h2></div>
+                <div class="col">
+                    <h2>Système de Paiement</h2>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col"><p>Type de Carte</p></div>
-                       
                 <div class="col">
-                            <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" />
-                            <i class="fab fa-cc-mastercard"></i>
-                            <label for="Mastercard">Mastercard</label>
+                    <p>Type de Carte</p>
+                </div>
+            </div>
 
-                            <input type="radio" name="Cardtype" value="Visa" id="Visa" />
-                            <i class="fab fa-cc-visa"></i><label for="Visa">Visa</label>
+                <div class="col">
+                    <input type="radio" name="Cardtype" value="Mastercard" id="Mastercard" />
+                    <i class="fab fa-cc-mastercard"></i>
+                    <label for="Mastercard">Mastercard</label>
+
+                    <input type="radio" name="Cardtype" value="Visa" id="Visa" />
+                    <i class="fab fa-cc-visa"></i><label for="Visa">Visa</label>
                 </div>
 
-                        <div>
-                            <label for="Cardnumber">Numero de carte</label><br>
-                            <input type="text" name="Cardnumber" placeholder="Numero de carte" required />
-                        </div>
+                <div>
+                    <label for="Cardnumber" class="text-white">Numero de carte</label><br>
+                    <input type="text" name="Cardnumber" placeholder="Numero de carte" required />
+                </div>
 
-                        <div>
-                            <label for="Expirydate">Date d'expiration</label><br>
-                            <input type="Datetime" name="Expirydate" placeholder="01/21" required />
-                        </div>
+                <div>
+                    <label for="Expirydate" class="text-white">Date d'expiration</label><br>
+                    <input type="Datetime" name="Expirydate" placeholder="01/21" required />
+                </div>
 
-                        <div>
-                            <label for="Securitycode">Cryptograme</label><br>
-                        
-                            <input type="text" name="Securitycode" placeholder="***" required />
-                        </div>
+                <div>
+                    <label for="Securitycode" class="text-white">Cryptograme</label><br>
+
+                    <input type="text" name="Securitycode" placeholder="***" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">Inscription</button>
                     </div>
-
-                    <div class="row">
-                        <div class="col text-center mt-4">
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <button type="button" class="btn btn-secondary">Inscription</button>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
+    </div>
 
 
 
-        </form>
+    </form>
 
 
 
