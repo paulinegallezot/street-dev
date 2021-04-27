@@ -5,10 +5,13 @@ body {
   color: white;
 
 }
-h1 {
-  
+.table{
+  color: white;
 }
 
+h6 {
+  padding-top: 10px;
+}
 .under {
   display: none;
   position: absolute;
@@ -86,30 +89,17 @@ footer p a {
 
 th {
   font-weight: bold;
-  padding: 25px;
-}
-
-td {
-  padding: 25px;
-}
-
-@media (min-width: 576px) {
-
-}
-table {
-  font-size:xx-small;
 }
 
 #news {
+  text-align: center;
   width: 50%;
   margin-left: 25%;
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-#guardrailleft {
 
-}
 
 #guardrailright {
   
