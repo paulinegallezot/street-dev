@@ -73,7 +73,10 @@ header div #connection {
   bottom: 0;
   z-index: 100;
 }
-
+.fab {
+  color: white;
+  font-size: 25px;
+}
 footer p {
   text-align: center;
   font-size: 18px;
@@ -82,9 +85,9 @@ footer p {
   color: white;
 }
 
-footer p a {
+footer a {
   color: white;
-  margin-left: 50px;
+  font-size: 0%;
 }
 
 th {
