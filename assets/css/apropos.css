@@ -8,44 +8,48 @@ body {
 }
 
 /* navbar */
-.under {
-  display: none;
-  position: fixed;
-  width: auto;
-}
-
-nav>ul li:hover .under {
-  display: block;
-  background-color: #959299;
-  width: 200px;
-}
-
 .navbar {
-  position: sticky;
-  font-size: 25px;
-  width: 100vw;
-  top: 0;
+  background-color:#959299!important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0em;
   background-color: #959299;
-  color: azure;
 }
 
-header nav li {
-  list-style-type: none;
-}
-
-
-#namegroup {
-  font-size: 30px;
+.namesite {
+  font-size: 1.8rem;
   font-family: 'Faster One', cursive;
   color: white;
 }
 
-header a {
-  text-decoration: none;
-  color: white;
+.fas {
+  font-size: 1.5rem;
 }
 
 /* fin navbar  */
+
+/* a propos */
+.pichood {
+  background-repeat: no-repeat;
+}
+
+.pabout {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+/* fin à propos */
+
+/* footer */
 .foot {
   background-color: #959299;
   width: 100%;
@@ -66,3 +70,4 @@ footer p a {
   color: white;
   margin-left: 50px;
 }
+/* fin footer */
