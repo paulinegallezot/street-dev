@@ -1,0 +1,23 @@
+.navbar {
+    background-color:#959299!important;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .dropdown-menu {
+    border: none;
+    border-radius: 0em;
+    background-color: #959299;
+  }
+  
+  .namesite {
+    font-size: 1.8rem;
+    font-family: 'Faster One', cursive;
+    color: white;
+  }
+  
+  .fas {
+    font-size: 1.5rem;
+  }

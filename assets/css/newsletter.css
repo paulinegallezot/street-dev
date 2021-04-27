@@ -3,7 +3,6 @@ body {
   background-color: #000614;
   margin: 0;
   color: white;
-
 }
 .table{
   color: white;
@@ -33,7 +32,6 @@ nav>ul li:hover .under {
   background-color: #959299;
   color: azure;
   z-index: 100;
-
 }
 
 header nav li {
@@ -105,7 +103,6 @@ th {
 
 
 #guardrailright {
-  
   height: 750px;
   margin-top: 105px;
   right: 0%;
