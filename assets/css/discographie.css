@@ -117,7 +117,7 @@ ul li:hover .albumlist{
     position:absolute;
 }
 :root {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {

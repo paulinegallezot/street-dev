@@ -11,7 +11,7 @@
   }
   
   h6 {
-    padding-top: 10px;
+    font-size: 1.3rem;
   }
   
   
@@ -98,12 +98,12 @@
 
 .dropdown-menu {
   border: none;
-  border-radius: 0em;
+  border-radius: 0rem;
   background-color: #959299;
 }
 
 .namesite {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-family: 'Faster One', cursive;
   color: white;
 }
@@ -113,3 +113,4 @@
 }
 
 /* fin navbar  */
+
